@@ -1,0 +1,164 @@
+.side {
+    line-height: 3rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid grey;
+    display: block;
+}
+
+.right {
+    background-color: aquamarine;
+}
+
+.display-elements {
+    padding: 0px;
+    background-color: #E8E8E8;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.icon {
+    width: 72px;
+    padding: 1rem;
+    margin: -1;
+}
+
+.icon .rounded-circle {
+    height: 40px;
+    width: 40px;
+    border: 1px solid grey
+}
+
+.span1 {
+    padding: 10px;
+    padding-right: 20px;
+    display: inline;
+}
+
+.side-items {
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.right1 {
+    padding-left: 70px;
+    display: flex;
+}
+
+.blue-screen {
+    background-color: #9de1fe;
+    text-align: center;
+}
+
+.small-one {
+    font-size: 1rem;
+    text-align: center;
+    margin: 0px;
+}
+
+.first-line {
+    display: block;
+}
+
+.search-bar {
+    margin-right: 5px;
+    background-color: #F8F8F8;
+    align-items: center;
+    padding: 1px;
+}
+
+.input-group-prepend {
+    padding-top: 1rem;
+    align-items: center;
+    padding-right: 7px;
+}
+
+.input-group>.custom-select:not(:first-child),
+.input-group>.form-control:not(:first-child) {
+    margin-top: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.chats {
+    display: inline;
+}
+
+.sender-name {
+    font-weight: 700;
+    font-family: 'Tahoma';
+}
+
+.chats .chat-name .c1 .sender-reply span {
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.chat-name {
+    display: flex;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.chats .chat-name .icon {
+    width: 72px;
+    padding: 1rem;
+    margin: 2px;
+}
+
+.right {
+    background-image: url("img/whatsapp.jpg");
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+.kypc {
+    margin-top: 150px;
+}
+
+.right img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.text {
+    padding-top: 30px;
+    background: transparent;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text2 {
+    padding-top: 20px;
+    margin: 20px;
+    background: transparent;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 300px) {
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .right1 {
+        display: flex;
+    }
+}
